@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS" />
+  <remote name="themuppets"
+          fetch="https://github.com/TheMuppets" />
+
+  <!-- Device Tree -->
+  <project name="LineageOS/android_device_samsung_starlte" path="device/samsung/starlte" remote="lineage" revision="lineage-20"/>
+  <project name="LineageOS/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="lineage" revision="lineage-20"/>
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="lineage" revision="lineage-20"/>
+
+  <!-- Kernel -->
+  <project name="LineageOS/android_kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="lineage" revision="lineage-20"/>
+
+  <!-- Vendor -->
+  <project name="TheMuppets/proprietary_vendor_samsung_starlte" path="vendor/samsung/starlte" remote="themuppets" revision="lineage-20"/>
+
+  <!-- Hardware -->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="lineage" revision="lineage-20"/>
+
+</manifest>
+
