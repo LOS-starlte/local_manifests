@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- Remotes -->
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS" />
   <remote name="los-starlte"
           fetch="https://github.com/LOS-starlte" />
   <remote name="themuppets"
@@ -19,6 +21,6 @@
   <project name="TheMuppets/proprietary_vendor_samsung_starlte" path="vendor/samsung/starlte" remote="themuppets" revision="lineage-20"/>
 
   <!-- Hardware -->
-  <project name="LOS-starlte/android_hardware_samsung" path="hardware/samsung" remote="los-starlte" revision="lineage-21"/>
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="lineage" revision="lineage-21"/>
 
 </manifest>
