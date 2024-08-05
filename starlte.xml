@@ -19,6 +19,7 @@
 
   <!-- Vendor -->
   <project name="proprietary_vendor_samsung_starlte" path="vendor/samsung/starlte" remote="themuppets" revision="lineage-20"/>
+  <project name="proprietary_vendor_samsung_exynos9810-common" path="vendor/samsung/exynos9810-common" remote="themuppets" revision="lineage-20"/>
 
   <!-- Hardware -->
   <project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" revision="lineage-21"/>
