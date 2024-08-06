@@ -6,8 +6,6 @@
   <remove-project name="device/generic/art" />
   <remove-project name="device/generic/car" />
   <remove-project name="LineageOS/android_device_generic_common" />
-  <remove-project name="device/generic/goldfish"  />
-  <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -16,13 +14,8 @@
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/generic/vulkan-cereal"/>
   <remove-project name="device/google_car" />
   <remove-project name="LineageOS/android_device_google_atv" />
   <remove-project name="LineageOS/android_device_google_contexthub" />
-  <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_prebuilts" />
-  <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/sample" />
 </manifest>
